@@ -1,0 +1,9 @@
+# Built pacman packages (install-tmog.sh copies them here)
+*.pkg.tar.*
+
+# Upstream tarballs and makepkg output, if TMOG_BUILD_DIR points inside the repo
+TaskManagerOG-*.tar.gz
+PKGBUILD
+src/
+pkg/
+*.log
